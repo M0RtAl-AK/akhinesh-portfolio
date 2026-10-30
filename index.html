@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhinesh Kumar | Portfolio</title>
+    <!-- Favicon (placeholder, will use a standard icon) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="bg-grid"></div>
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="blob blob-4"></div>
+    </div>
+
+    <!-- NAVBAR -->
+    <!-- Edit links in content.js -->
+    <nav id="navbar" class="fade-in">
+        <div class="nav-container">
+            <div class="logo">AK.</div>
+            <div class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#journey">Journey</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="nav-socials" id="nav-socials">
+                <!-- Social links injected via JS -->
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="#hero">Home</a>
+        <a href="#journey">Journey</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+        <!-- Floating Tags injected via JS -->
+        <div id="hero-tags" class="hero-tags"></div>
+        
+        <div class="hero-container container">
+            <div class="hero-text-col fade-in-up">
+                <h1 id="hero-headline">Headline</h1>
+                <p id="hero-subheadline" class="hero-subheadline">Subheadline</p>
+                
+                <div class="hero-stats" id="hero-stats">
+                    <!-- Stats injected via JS -->
+                </div>
+                
+                <div class="hero-ctas" id="hero-ctas">
+                    <!-- CTAs injected via JS -->
+                </div>
+            </div>
+            
+            <div class="hero-image-col fade-in-up">
+                <div class="hero-image-wrapper">
+                    <div class="hero-blob"></div>
+                    <img id="hero-image" src="" alt="Profile Photo" class="hero-photo">
+                    <div id="hero-badges" class="hero-badges">
+                        <!-- Badges injected via JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MY JOURNEY -->
+    <section id="journey" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">My Journey</h2>
+            <div class="timeline" id="timeline">
+                <!-- Timeline items injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED PROJECTS -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Selected Work</h2>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT I BRING (SKILLS) -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">What I Bring</h2>
+            <div class="skills-container" id="skills-container">
+                <!-- Skills injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Achievements</h2>
+            <div class="achievements-list" id="achievements-list">
+                <!-- Achievements injected via JS -->
+            </div>
+            
+            <h3 class="subsection-title fade-in-up">Indirect Contributions</h3>
+            <div class="indirect-contributions-list" id="indirect-contributions-list">
+                <!-- Indirect Contributions injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION & CERTIFICATIONS -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Education & Certifications</h2>
+            <div class="edu-cert-wrapper">
+                <div class="edu-section" id="edu-section">
+                    <!-- Education injected via JS -->
+                </div>
+                <div class="cert-section" id="cert-section">
+                    <!-- Certifications injected via JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT / FOOTER -->
+    <footer id="contact" class="footer">
+        <div class="container text-center fade-in-up">
+            <h2 id="contact-headline" class="footer-headline">Headline</h2>
+            <a id="contact-btn" href="#" target="_blank" class="btn btn-primary footer-btn">Button</a>
+            
+            <div class="footer-socials" id="footer-socials">
+                <!-- Footer socials injected via JS -->
+            </div>
+            <p class="copyright">© 2024 Akhinesh Kumar. Designed for impact.</p>
+        </div>
+    </footer>
+
+    <!-- Toast Notification for Email Copy -->
+    <div id="toast" class="toast">Email copied to clipboard!</div>
+
+    <!-- Scripts -->
+    <script src="content.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
